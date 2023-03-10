@@ -31,6 +31,7 @@
         <link rel="stylesheet" type="text/css" href="css/custom.css">
         <script src="js/jquery-3.6.4.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
 
         <!-- Fontawesome Icons -->
         <script src="https://kit.fontawesome.com/637e7e9f05.js" crossorigin="anonymous"></script>
