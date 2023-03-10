@@ -14,7 +14,7 @@
                     <?php
 // Load the encryption key and IV
 $key = file_get_contents('../conf/key.bin');
-$encryptedFolder = $_SERVER['DOCUMENT_ROOT'] . '../encrypted/';
+$encryptedFolder =  '../encrypted/';
 $ivBase64 = $row['iv'];
 $encryptedDataBase64 = file_get_contents($encryptedFolder . $row['image']);
 list($ivBase64, $encryptedDataBase64) = explode(':', $encryptedDataBase64);
